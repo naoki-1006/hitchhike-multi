@@ -72,11 +72,11 @@ public class RemoteHandTarget : TargetObject
 
   }
 
-  public void OnGrab()
+  public void OnGrab(PointerEvent evt)
   {
     if (remoteHandManager != null) remoteHandManager.SetIsPaused(true);
   }
-  public void OnRelease()
+  public void OnRelease(PointerEvent evt)
   {
     if (remoteHandManager != null) remoteHandManager.SetIsPaused(false);
   }

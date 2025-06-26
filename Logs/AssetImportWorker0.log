@@ -273,3 +273,113 @@ Received Import Request.
 Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(a77c8c4cc3b3a31458f0a8a893d985c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4822547f81cfee7999c074f5316e297d') in 0.0294535 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 25.74 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9428 unused Assets / (5.2 MB). Loaded Objects now: 10299.
+Memory consumption went from 171.7 MB to 166.5 MB.
+Total: 26.555100 ms (FindLiveObjects: 1.499500 ms CreateObjectMapping: 2.403100 ms MarkObjects: 17.341200 ms  DeleteObjects: 5.310100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1623.404095 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(7076b232e8559264db0509a26a1e90f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(7076b232e8559264db0509a26a1e90f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b885233c0e772bf710525a3449cac0') in 0.0093535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1850.947766 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10528149371aefc32227726816d72a59') in 0.0015927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf335787fae6e600d18360880160fb70') in 0.6004371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.766720 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/InteractableItems/Prefabs/[BB] Pointable Cube.prefab
+  artifactKey: Guid(09afcf33928494372befbc553eb0fc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/InteractableItems/Prefabs/[BB] Pointable Cube.prefab using Guid(09afcf33928494372befbc553eb0fc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e84c7962afcc3a71157d9692ca0fbd24') in 0.0439304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/PointableDebugVisual.prefab
+  artifactKey: Guid(edb63bed74183984992e5146f6e58bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/PointableDebugVisual.prefab using Guid(edb63bed74183984992e5146f6e58bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83e40240dcb3d47fc51f5e6ac120bacc') in 0.0168921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 24.70 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9428 unused Assets / (5.3 MB). Loaded Objects now: 10489.
+Memory consumption went from 183.1 MB to 177.8 MB.
+Total: 27.239700 ms (FindLiveObjects: 1.519900 ms CreateObjectMapping: 2.276000 ms MarkObjects: 18.087900 ms  DeleteObjects: 5.354700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 133.195979 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Sample/Prefabs/Body/OVRBodyFromPose.prefab
+  artifactKey: Guid(0e00cd252fc6ef144ba80184f765ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Sample/Prefabs/Body/OVRBodyFromPose.prefab using Guid(0e00cd252fc6ef144ba80184f765ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae64244f02d7b9d8907ab98cb02c8ad6') in 0.0937351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 494
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/UnityXR/Prefabs/Hands/UnityXRFromRightHandPrefab.prefab
+  artifactKey: Guid(5bfb567872cfe684c99b636bb0621f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/UnityXR/Prefabs/Hands/UnityXRFromRightHandPrefab.prefab using Guid(5bfb567872cfe684c99b636bb0621f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96265fa7cd3b3be2d9e56f931f645921') in 0.0429589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 173
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRFromRightHandPrefab.prefab
+  artifactKey: Guid(f610b7d0d48fa194193a8edc8f1c4959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRFromRightHandPrefab.prefab using Guid(f610b7d0d48fa194193a8edc8f1c4959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '374e900164c2463f863fa41654812605') in 0.0110167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 173
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/UnityXR/Prefabs/Hands/UnityXRFromLeftHandPrefab.prefab
+  artifactKey: Guid(ca355b9acfdf2db4d86aa52e3eab38de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/UnityXR/Prefabs/Hands/UnityXRFromLeftHandPrefab.prefab using Guid(ca355b9acfdf2db4d86aa52e3eab38de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c745addb56dc8421687c7c70f5aa1cd') in 0.018329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 173
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

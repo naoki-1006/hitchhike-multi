@@ -119,7 +119,8 @@ namespace Hitchhike
 
     public void Select(HandGrabInteractable interactable)
     {
-      grab.ForceSelectOnce(interactable);
+      grab.ForceSelect(interactable, allowManualRelease: true);
+      //grab.ForceSelectOnce(interactable);
     }
 
     public HandGrabInteractable GetCurrentInteractable()

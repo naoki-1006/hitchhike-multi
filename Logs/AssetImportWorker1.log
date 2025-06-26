@@ -265,3 +265,113 @@ Received Import Request.
 Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Unity/PointableUnityEventWrapper.cs using Guid(e2f8f6e9e6f3e114b9bf9a57c2160615) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '746ce75da194c8c586a705a29501ffbc') in 0.005684 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 25.64 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9428 unused Assets / (5.2 MB). Loaded Objects now: 10298.
+Memory consumption went from 171.7 MB to 166.5 MB.
+Total: 25.010800 ms (FindLiveObjects: 1.495000 ms CreateObjectMapping: 2.400300 ms MarkObjects: 15.773000 ms  DeleteObjects: 5.340800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3477.945636 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/InteractableItems/Pointable Item.asset
+  artifactKey: Guid(842e5b7503dbf496db332563c60720df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/InteractableItems/Pointable Item.asset using Guid(842e5b7503dbf496db332563c60720df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0f9fc6d4f7567a40f6104e96e5b379') in 0.0559099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 25.06 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9428 unused Assets / (5.3 MB). Loaded Objects now: 10299.
+Memory consumption went from 171.7 MB to 166.4 MB.
+Total: 26.282500 ms (FindLiveObjects: 1.461300 ms CreateObjectMapping: 2.289100 ms MarkObjects: 16.991000 ms  DeleteObjects: 5.538500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 133.246297 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRFromLeftHandPrefab.prefab
+  artifactKey: Guid(bf40bb80d130145429b3589de445204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRFromLeftHandPrefab.prefab using Guid(bf40bb80d130145429b3589de445204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54ffdf408c61989a11e61d816fdaa714') in 0.5607055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 173
+
+========================================================================
+Received Import Request.
+  Time since last request: 2613.816810 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/DistanceHandGrab.asset
+  artifactKey: Guid(e1b2b2d7e175a754da55cb3a3abd56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/DistanceHandGrab.asset using Guid(e1b2b2d7e175a754da55cb3a3abd56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '930f3e20f9fc9e1c5b27ddbd08a4d12e') in 0.0173745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/InstallationRoutines/DistanceHandGrabInstallationRoutine.asset
+  artifactKey: Guid(0db10a795d491e4468385bc936171e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/InstallationRoutines/DistanceHandGrabInstallationRoutine.asset using Guid(0db10a795d491e4468385bc936171e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a88ccc86e151568a7a499a264140556') in 0.0054461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/InstallationRoutines/HandGrabInstallationRoutine.asset
+  artifactKey: Guid(319f785b0f6b72d43ad0de294f950ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/InstallationRoutines/HandGrabInstallationRoutine.asset using Guid(319f785b0f6b72d43ad0de294f950ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dea42868b806f707c80b30580b000a3') in 0.001609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Sample/Objects/Images For ISDK Menu/HandGrabExampleSceneImage.png
+  artifactKey: Guid(f18a401b75c8c4c46ba88c481b9f19f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Sample/Objects/Images For ISDK Menu/HandGrabExampleSceneImage.png using Guid(f18a401b75c8c4c46ba88c481b9f19f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f822703778d5b1380ec3828dd2216c7c') in 0.0378542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.753183 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Legacy/TouchHandGrab/OVRTouchHandGrabInteractor.prefab
+  artifactKey: Guid(eacb945ff4b1f71479625dd1c973b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Legacy/TouchHandGrab/OVRTouchHandGrabInteractor.prefab using Guid(eacb945ff4b1f71479625dd1c973b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c001ed3c8d5198e669ff9705dd0bd9a6') in 0.070666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1692
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/TouchHandGrab/TouchHandGrabInteractor.prefab
+  artifactKey: Guid(43d80bcd752bc6e4986f6b18e863db9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/TouchHandGrab/TouchHandGrabInteractor.prefab using Guid(43d80bcd752bc6e4986f6b18e863db9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f73f8c0c719742d19c91c42c1f0d7c7') in 0.0221243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1107
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Prefabs/Template_TouchHandGrabInteractor.prefab
+  artifactKey: Guid(37318c26f22752d4c88f584585c490e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Prefabs/Template_TouchHandGrabInteractor.prefab using Guid(37318c26f22752d4c88f584585c490e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ec30adb7aba47a3b9d77bed734fcc90') in 0.0209432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1109
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
