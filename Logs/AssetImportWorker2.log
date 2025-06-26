@@ -329,3 +329,36 @@ Received Import Request.
 Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/TouchHandGrab/TouchHandGrabInteractable.prefab using Guid(aaae94d61b3f6bb42be68ba0a270e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '770c1ee7aad659e1710c702352598bf3') in 0.0027517 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
+========================================================================
+Received Import Request.
+  Time since last request: 5.611316 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractor.cs
+  artifactKey: Guid(9067480af55f5874d8f613b16812f968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractor.cs using Guid(9067480af55f5874d8f613b16812f968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e383dd3c943e49bf8d5478db593fbaa') in 0.0006751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.529242 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Interaction/Models/HandGrab/IHandGrabInteractor.cs
+  artifactKey: Guid(5f89ef78eb4237e4eaa744283a3d620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Interaction/Models/HandGrab/IHandGrabInteractor.cs using Guid(5f89ef78eb4237e4eaa744283a3d620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd0d6a5f9f79b81e215aae727e14cabf') in 0.0007329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 23.99 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9428 unused Assets / (5.2 MB). Loaded Objects now: 10492.
+Memory consumption went from 192.8 MB to 187.6 MB.
+Total: 28.746800 ms (FindLiveObjects: 1.384300 ms CreateObjectMapping: 2.350000 ms MarkObjects: 19.842700 ms  DeleteObjects: 5.168200 ms)
+
+Prepare: number of updated asset objects reloaded= 0

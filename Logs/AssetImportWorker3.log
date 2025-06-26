@@ -257,3 +257,20 @@ Unloading 9512 unused Assets / (5.8 MB). Loaded Objects now: 10303.
 Memory consumption went from 227.0 MB to 221.2 MB.
 Total: 15.887300 ms (FindLiveObjects: 1.216700 ms CreateObjectMapping: 2.299200 ms MarkObjects: 8.582500 ms  DeleteObjects: 3.787500 ms)
 
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 25.97 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9428 unused Assets / (5.2 MB). Loaded Objects now: 10296.
+Memory consumption went from 171.1 MB to 165.9 MB.
+Total: 25.617300 ms (FindLiveObjects: 1.647500 ms CreateObjectMapping: 2.375800 ms MarkObjects: 16.495900 ms  DeleteObjects: 5.096500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
