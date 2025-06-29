@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.8f1 (2a5b1522e5ab) revision 2775829'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ja' Physical Memory: 65404 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-06-26T06:51:20Z
+Date: 2025-06-29T11:06:55Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.1.8f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/cyber/Documents/naoki/hitchhike-multi
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-59408
+57027
 -job-worker-count
 7
 -background-job-worker-count
@@ -62,12 +62,12 @@ C:/Users/cyber/Documents/naoki/hitchhike-multi
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24904]  Target information:
+Player connection [23332]  Target information:
 
-Player connection [24904]  * "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1757269768 [EditorId] 1757269768 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-09J98QC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23332]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2680591799 [EditorId] 2680591799 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-09J98QC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24904] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24904] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23332] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23332] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,9 +79,9 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 29.16 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 47.25 ms, found 16 plugins.
 Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 2 native plugins for Editor in 2.27 ms.
+Preloading 2 native plugins for Editor in 4.31 ms.
 Initialize engine version: 6000.1.8f1 (2a5b1522e5ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.8f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/cyber/Documents/naoki/hitchhike-multi/Assets
@@ -98,46 +98,63 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002307 seconds.
-- Loaded All Assemblies, in  0.366 seconds
+Registered in 0.003130 seconds.
+- Loaded All Assemblies, in  0.578 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 179 ms
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0005a] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs:148 
+  at UnityEditor.Android.ADB.StartServer () [0x00008] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/ADB.cs:176 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/ADB.cs:214 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0023a] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs:359 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00049] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/TargetScanWorker.cs:164 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00087] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:114 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000af] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:75 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x000ba] in <9d58b7ff89f8466b9ad84b9b8bc91942>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules()
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs Line: 148)
+
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.514 seconds
-Domain Reload Profiling: 878ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  5.636 seconds
+Domain Reload Profiling: 6211ms
+	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (120ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (168ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (134ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (224ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (514ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (5637ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
+		SetupLoadedEditorAssemblies (5549ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (261ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (97ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			InitializePlatformSupportModulesInManaged (5285ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -147,13 +164,13 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.933 seconds
+- Loaded All Assemblies, in  1.279 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 13.46 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 18.39 ms, found 16 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -163,10 +180,10 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 13.33 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 23.41 ms, found 16 plugins.
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29    0    29    0     0    100      0 --:--:-- --:--:-- --:--:--   100
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100    29    0    29    0     0     15      0 --:--:--  0:00:01 --:--:--    15
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -198,167 +215,98 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.580 seconds
-Domain Reload Profiling: 2505ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  3.663 seconds
+Domain Reload Profiling: 4933ms
+	BeginReloadAssembly (229ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (673ms)
-		LoadAssemblies (394ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (932ms)
+		LoadAssemblies (499ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (371ms)
-			TypeCache.Refresh (247ms)
-				TypeCache.ScanAssembly (224ms)
-			BuildScriptInfoCaches (97ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1580ms)
+		AnalyzeDomain (550ms)
+			TypeCache.Refresh (386ms)
+				TypeCache.ScanAssembly (352ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (3664ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1379ms)
+		SetupLoadedEditorAssemblies (3391ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (890ms)
-			ProcessInitializeOnLoadMethodAttributes (304ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (2712ms)
+			ProcessInitializeOnLoadMethodAttributes (418ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 15.98 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.16 ms.
-Unloading 310 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9512 unused Assets / (4.8 MB). Loaded Objects now: 10303.
-Memory consumption went from 227.0 MB to 222.2 MB.
-Total: 21.248500 ms (FindLiveObjects: 1.211100 ms CreateObjectMapping: 2.137500 ms MarkObjects: 13.740500 ms  DeleteObjects: 4.157900 ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 34.36 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.38 ms.
+Unloading 309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9512 unused Assets / (3.4 MB). Loaded Objects now: 10302.
+Memory consumption went from 222.8 MB to 219.4 MB.
+Total: 32.780500 ms (FindLiveObjects: 2.086700 ms CreateObjectMapping: 2.972300 ms MarkObjects: 20.135900 ms  DeleteObjects: 7.583800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12562.974377 seconds.
-  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Scripts/Input/FromOVRHandDataSource.cs
-  artifactKey: Guid(4855895ba1c44959a306beb7ae318fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Scripts/Input/FromOVRHandDataSource.cs using Guid(4855895ba1c44959a306beb7ae318fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37b7d7394e4e150529fc91398ddedd31') in 0.0049926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 280.708796 seconds.
-  path: Assets/Scripts/InteractionSDK/InteractionHandWrap.cs
-  artifactKey: Guid(df0860d1551aab941981a769c86c8869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/InteractionSDK/InteractionHandWrap.cs using Guid(df0860d1551aab941981a769c86c8869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7234941fe79fd228f30a614743cf2395') in 0.0006278 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1108.082870 seconds.
-  path: Packages/com.meta.xr.mrutilitykit/Core/Materials/UnlitRed.mat
-  artifactKey: Guid(43729c7a8f06e4769ba11eac897f7c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.mrutilitykit/Core/Materials/UnlitRed.mat using Guid(43729c7a8f06e4769ba11eac897f7c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bb21d7beb2a43f6f4f18e9bee6b0223') in 0.5141371 seconds
+  Time since last request: 195267.470948 seconds.
+  path: Assets/Materials/Curtain.mat
+  artifactKey: Guid(62bc72e1311ec30478a96387132d2e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Curtain.mat using Guid(62bc72e1311ec30478a96387132d2e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a385013d92cda144ee8dc56f4783be6') in 0.7387108 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.032137 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Input/ITrackingToWorldTransformer.cs
-  artifactKey: Guid(cf17380a7dbcc344dbdbdbc163933e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Input/ITrackingToWorldTransformer.cs using Guid(cf17380a7dbcc344dbdbdbc163933e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50914688ebb444fd600f43c0caf4039f') in 0.0006333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/Transparent.mat
+  artifactKey: Guid(b820ace0d1b86594e81c11adc7ee8eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Transparent.mat using Guid(b820ace0d1b86594e81c11adc7ee8eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '829c0d036e20d3da0f1fed7014bbf719') in 0.0630669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1215.200736 seconds.
-  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Textures/bb_thumb_touchhandgrab.jpg
-  artifactKey: Guid(5f50e59fa71296048b89fefb7bc37448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Textures/bb_thumb_touchhandgrab.jpg using Guid(5f50e59fa71296048b89fefb7bc37448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '085c64ad3056ee11aa835741d996be77') in 0.0301795 seconds
+  Time since last request: 0.000064 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(1c92b50fe0433064c9a8476c0d1dbcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(1c92b50fe0433064c9a8476c0d1dbcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7e5790a4a9c6687ff850943443fb307') in 0.0092773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/TransparentActive.mat
+  artifactKey: Guid(f34d4adc3d6742d41b4e21e4eae161bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TransparentActive.mat using Guid(f34d4adc3d6742d41b4e21e4eae161bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e737cffde01ad994a5b3586eea14fde') in 0.0490441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/GazePoint.mat
+  artifactKey: Guid(ce9dc676e7c9f2941866e1bf62cc4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GazePoint.mat using Guid(ce9dc676e7c9f2941866e1bf62cc4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9783b9960ddb35f58fb67be15ed19c79') in 0.0484931 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/HandGrab.asset
-  artifactKey: Guid(6cbbad9a2fd36b440936f4028cb01bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/HandGrab.asset using Guid(6cbbad9a2fd36b440936f4028cb01bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3184c89243667494670ba16ccc5ff90') in 0.027258 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/OculusHandCustomDisabled.mat
+  artifactKey: Guid(59d0841c2c7100f46b58455458b1cdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/OculusHandCustomDisabled.mat using Guid(59d0841c2c7100f46b58455458b1cdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e1871107fc0ce98761756b86abbf1ef') in 0.0165277 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/HandGrab/HandGrabInteractable.prefab
-  artifactKey: Guid(a7a283c538f526040acd7c29703dad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/HandGrab/HandGrabInteractable.prefab using Guid(a7a283c538f526040acd7c29703dad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '236bae4a9016a975e9930547138543e9') in 0.0110138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.799791 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/HandGrab/HandGrabInteractor.prefab
-  artifactKey: Guid(885ecae56b16f13428a67de5ae482a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/HandGrab/HandGrabInteractor.prefab using Guid(885ecae56b16f13428a67de5ae482a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '335bf7aa53d8d3da4c51ff832696fd39') in 0.0111345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_HandGrabInteractor.prefab
-  artifactKey: Guid(f0a90b2d303e7744fa8c9d3c6e2418a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_HandGrabInteractor.prefab using Guid(f0a90b2d303e7744fa8c9d3c6e2418a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efafe08d045fabe3f8e9a0a81330a943') in 0.0028987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/TouchHandGrab/TouchControllerHandGrabInteractor.prefab
-  artifactKey: Guid(0bda7369b6a755047a27bb1aa467f9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/TouchHandGrab/TouchControllerHandGrabInteractor.prefab using Guid(0bda7369b6a755047a27bb1aa467f9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40e57bd1b5f86c3f8dc6c4f966793d7a') in 0.0791092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1637
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/TouchHandGrab/TouchHandGrabInteractable.prefab
-  artifactKey: Guid(aaae94d61b3f6bb42be68ba0a270e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/TouchHandGrab/TouchHandGrabInteractable.prefab using Guid(aaae94d61b3f6bb42be68ba0a270e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '770c1ee7aad659e1710c702352598bf3') in 0.0027517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.611316 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractor.cs
-  artifactKey: Guid(9067480af55f5874d8f613b16812f968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractor.cs using Guid(9067480af55f5874d8f613b16812f968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e383dd3c943e49bf8d5478db593fbaa') in 0.0006751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.529242 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Interaction/Models/HandGrab/IHandGrabInteractor.cs
-  artifactKey: Guid(5f89ef78eb4237e4eaa744283a3d620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Scripts/Interaction/Models/HandGrab/IHandGrabInteractor.cs using Guid(5f89ef78eb4237e4eaa744283a3d620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd0d6a5f9f79b81e215aae727e14cabf') in 0.0007329 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 23.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9428 unused Assets / (5.2 MB). Loaded Objects now: 10492.
-Memory consumption went from 192.8 MB to 187.6 MB.
-Total: 28.746800 ms (FindLiveObjects: 1.384300 ms CreateObjectMapping: 2.350000 ms MarkObjects: 19.842700 ms  DeleteObjects: 5.168200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
